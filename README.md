@@ -32,5 +32,5 @@ Hệ thống đặt phòng trực tuyến giúp người dùng dễ dàng tìm k
 
 ```bash
 git clone https://github.com/QuynhAnh-31/project
-cd hotel-booking
+cd homestay-booking
 ---
