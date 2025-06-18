@@ -52,10 +52,10 @@ php artisan serve
 Sau đó truy cập `http://127.0.0.1:8000/`
 
 ## Biểu đồ database
-![Class diagram](image/hotel_booking_database.png)
+![usecase diagram](hotel_booking_usecase.png)
 
 ## Biểu đồ database
-![usecase diagram](image/hotel_booking_usecase.png)
+![class diagram](hotel_booking_database.png)
 
 
 ## 📸 Ảnh giao diện
@@ -63,27 +63,27 @@ Dưới đây là một số hình ảnh về giao diện của hệ thống:
 
 
 ### Đăng ký/ Đăng nhập
-| ![Ảnh 1](image/signup.png) | ![Ảnh 2](image/signin.png) |
+| ![Ảnh 1](signup.png) | ![Ảnh 2](signin.png) |
 |----------------------|----------------------|
 
 
 ### 🌍 Trang chủ
-![Trang chủ](![alt text](homepage-1.png))
+![Trang chủ](homepage-1.png)
 
 ### 🏨 Trang đặt phòng
-![Trang đặt phòng](![alt text](booking.png))
+![Trang đặt phòng](booking.png)
 
 ### Trang feedback
-![Trang feedback](![alt text](feedback.png))
+![Trang feedback](feedback.png)
 
 ### 🔧 Trang quản trị
-![Trang quản trị](![alt text](admin.png))
+![Trang quản trị](admin.png)
 
 ### 🔧 Trang quản trị đặt phòng
-![Trang quản trị booking](![alt text](admin_booking.png))
+![Trang quản trị booking](admin_booking.png)
 
 ### 🔧 Trang quản trị phản hồi
-![Trang quản trị phản hồi](![alt text](mail.png))
+![Trang quản trị phản hồi](mail.png)
 
 
 ## 🔚 Tổng kết
