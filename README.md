@@ -42,7 +42,7 @@ Cập nhật file `.env` với thông tin kết nối database. Ngoài ra, có t
 
 ### 4️⃣ Chạy migrations
 ```sh
-php artisan migrate --seed
+php artisan migrate
 ```
 
 ### 5️⃣ Khởi động server
