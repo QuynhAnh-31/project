@@ -1,0 +1,113 @@
+[
+  {
+    "_id": "59c0c8e33b1527bfe2abaf92",
+    "index": 0,
+    "guid": "53178f64-9f01-4394-b9f1-4f2f83bb5924",
+    "isActive": true,
+    "icon": "http://placehold.it/32x32",
+    "logo": "http://placehold.it/32x32",
+    "image": "https://picsum.photos/300/200?image=1063",
+    "link": "detail.html",
+    "url": "#",
+    "name": "Blue Hill Homestay",
+    "email": "contact@bluehillhomestay.com",
+    "phone": "+1 (920) 407-3975",
+    "address": "151 Karweg Place, Waumandee, Iowa, 5508",
+    "about": "Blue Hill Homestay offers a cozy and peaceful environment surrounded by nature. Perfect for travelers seeking relaxation and authentic local experiences.",
+    "latitude": 40.73723,
+    "longitude": -73.99967,
+    "tags": [
+      "nature",
+      "relaxation",
+      "family-friendly"
+    ]
+  },
+  {
+    "_id": "59c0c8e322f3375db4d89128",
+    "index": 1,
+    "guid": "2cbd2629-eba9-40a3-82d0-ceb0e70200ac",
+    "isActive": true,
+    "icon": "http://placehold.it/32x32",
+    "logo": "http://placehold.it/32x32",
+    "image": "https://picsum.photos/300/200?image=1076",
+    "link": "detail.html",
+    "url": "#",
+    "name": "Plutorque Guesthouse",
+    "email": "info@plutorque.com",
+    "phone": "+1 (986) 599-2693",
+    "address": "325 Seton Place, Castleton, Indiana, 3368",
+    "about": "Experience comfort and convenience at Plutorque Guesthouse with modern amenities and friendly staff ready to assist you during your stay.",
+    "latitude": 40.7384555,
+    "longitude": -73.9906951,
+    "tags": [
+      "modern",
+      "convenient",
+      "wifi"
+    ]
+  },
+  {
+    "_id": "59c0c8e3a31e62979bf147c9",
+    "index": 2,
+    "guid": "e850eea8-0be3-4f81-bf95-acde6594c3ef",
+    "isActive": true,
+    "icon": "http://placehold.it/32x32",
+    "logo": "http://placehold.it/32x32",
+    "image": "https://picsum.photos/300/200?image=1061",
+    "link": "detail.html",
+    "url": "#",
+    "name": "Junipoor Stay",
+    "email": "stay@junipoor.com",
+    "phone": "+1 (863) 446-2211",
+    "address": "397 Crystal Street, Idledale, Nebraska, 4692",
+    "about": "Junipoor Stay welcomes you with a warm atmosphere and home-like comfort, ideal for solo travelers and couples.",
+    "latitude": 40.732346,
+    "longitude": -74.0014247,
+    "tags": [
+      "cozy",
+      "affordable",
+      "couples"
+    ]
+  },
+  {
+    "_id": "59c0c8e3503eb77d487e8082",
+    "index": 3,
+    "guid": "b48f4317-44dd-491e-a9e3-37967d880ea5",
+    "isActive": false,
+    "icon": "http://placehold.it/32x32",
+    "logo": "http://placehold.it/32x32",
+    "image": "https://picsum.photos/300/200?image=1054",
+    "link": "detail.html",
+    "url": "#",
+    "name": "Musix Homestay",
+    "email": "contact@musix.com",
+    "phone": "+1 (862) 498-2322",
+    "address": "828 Dewitt Avenue, Wyano, Nevada, 5082",
+    "about": "Musix Homestay is currently unavailable for booking. Please check back later for availability and offers.",
+    "latitude": 40.7246413,
+    "longitude": -73.9969277,
+    "tags": [
+      "temporarily closed"
+    ]
+  },
+  {
+    "_id": "59c0c8e39aa2eed0626e485d",
+    "index": 4,
+    "guid": "1d402f7f-fd00-462f-9875-cc31c7a681a8",
+    "isActive": false,
+    "icon": "http://placehold.it/32x32",
+    "logo": "http://placehold.it/32x32",
+    "image": "https://picsum.photos/300/200?image=1033",
+    "link": "detail.html",
+    "url": "#",
+    "name": "Prosure Lodge",
+    "email": "info@prosurelodge.com",
+    "phone": "+1 (831) 587-2089",
+    "address": "942 Greenpoint Avenue, Northridge, Puerto Rico, 8248",
+    "about": "Prosure Lodge is currently not accepting reservations. We apologize for the inconvenience and hope to welcome guests again soon.",
+    "latitude": 40.741726,
+    "longitude": -73.9893617,
+    "tags": [
+      "temporarily closed"
+    ]
+  }
+]
