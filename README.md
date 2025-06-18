@@ -1,61 +1,90 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Hotel Booking System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 📝 Mô tả ngắn gọn
+Hệ thống đặt phòng khách sạn trực tuyến giúp người dùng dễ dàng tìm kiếm, đặt phòng và quản lý đặt phòng của mình một cách thuận tiện. Dành cho cả khách hàng và quản trị viên khách sạn.
 
-## About Laravel
+## ✨ Các tính năng chính
+- Đăng ký & Đăng nhập người dùng
+- Tìm kiếm và đặt phòng khách sạn
+- Quản lý đặt phòng của người dùng
+- Quản lý phòng, dịch vụ và đặt phòng dành cho quản trị viên
+- Thanh toán trực tuyến (tùy chọn)
+- Hệ thống đánh giá và phản hồi
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🛠 Công nghệ sử dụng
+- **Framework:** Laravel 10
+- **Ngôn ngữ:** PHP
+- **Cơ sở dữ liệu:** MySQL
+- **Local Server:** XAMPP
+- **Frontend:** Blade Template, Bootstrap
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 Cài đặt và chạy dự án
+### 1️⃣ Clone repository
+```sh
+git clone https://github.com/QuynhAnh-31/project
+cd hotel-booking
+```
 
-## Learning Laravel
+### 2️⃣ Cài đặt dependencies
+```sh
+composer install
+npm install
+npm run build
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 3️⃣ Cấu hình môi trường
+```sh
+cp .env.example .env
+php artisan key:generate
+```
+Cập nhật file `.env` với thông tin kết nối database. Ngoài ra, có thể nhập dữ liệu mẫu từ file `hotel2.sql` vào database để thuận lợi cho việc deploy sản phẩm
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 4️⃣ Chạy migrations
+```sh
+php artisan migrate --seed
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 5️⃣ Khởi động server
+```sh
+php artisan serve
+```
+Sau đó truy cập `http://127.0.0.1:8000/`
 
-## Laravel Sponsors
+## Biểu đồ database
+![Class diagram](image/hotel_booking_database.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Biểu đồ database
+![usecase diagram](image/hotel_booking_usecase.png)
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 📸 Ảnh giao diện
+Dưới đây là một số hình ảnh về giao diện của hệ thống:
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Đăng ký/ Đăng nhập
+| ![Ảnh 1](image/signup.png) | ![Ảnh 2](image/signin.png) |
+|----------------------|----------------------|
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 🌍 Trang chủ
+![Trang chủ](![alt text](homepage-1.png))
 
-## Security Vulnerabilities
+### 🏨 Trang đặt phòng
+![Trang đặt phòng](![alt text](booking.png))
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Trang feedback
+![Trang feedback](![alt text](feedback.png))
 
-## License
+### 🔧 Trang quản trị
+![Trang quản trị](![alt text](admin.png))
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 🔧 Trang quản trị đặt phòng
+![Trang quản trị booking](![alt text](admin_booking.png))
+
+### 🔧 Trang quản trị phản hồi
+![Trang quản trị phản hồi](![alt text](mail.png))
+
+
+## 🔚 Tổng kết
+Hệ thống đặt phòng khách sạn này giúp đơn giản hóa quy trình đặt phòng, mang đến trải nghiệm tiện lợi cho người dùng và dễ dàng quản lý cho chủ khách sạn. Với Laravel, PHP và MySQL, dự án đảm bảo tính linh hoạt, bảo mật và hiệu suất tốt. Hy vọng dự án sẽ hữu ích và có thể mở rộng thêm nhiều tính năng trong tương lai!
