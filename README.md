@@ -1,7 +1,7 @@
 # Hotel Booking System
 
 ## 📝 Mô tả ngắn gọn
-Hệ thống đặt phòng khách sạn trực tuyến giúp người dùng dễ dàng tìm kiếm, đặt phòng và quản lý đặt phòng của mình một cách thuận tiện. Dành cho cả khách hàng và quản trị viên khách sạn.
+Hệ thống đặt phòng khách sạn trực tuyến cho phép khách hàng dễ dàng tìm kiếm, đặt phòng và theo dõi thông tin đặt phòng. Đồng thời, hỗ trợ quản trị viên quản lý phòng, đơn đặt và thông tin khách hàng hiệu quả.
 
 ## ✨ Các tính năng chính
 - Đăng ký & Đăng nhập người dùng
@@ -68,23 +68,23 @@ Dưới đây là một số hình ảnh về giao diện của hệ thống:
 
 
 ### 🌍 Trang chủ
-![Trang chủ](homepage-1.png)
+![Trang chủ](homepage-2.png)
 
 ### 🏨 Trang đặt phòng
-![Trang đặt phòng](booking.png)
+![Trang đặt phòng](booking-1.png)
 
 ### Trang feedback
-![Trang feedback](feedback.png)
+![Trang feedback](feedback-1.png)
 
 ### 🔧 Trang quản trị
-![Trang quản trị](admin.png)
+![Trang quản trị](admin-1.png)
 
 ### 🔧 Trang quản trị đặt phòng
-![Trang quản trị booking](admin_booking.png)
+![Trang quản trị booking](admin_booking-1.png)
 
 ### 🔧 Trang quản trị phản hồi
-![Trang quản trị phản hồi](mail.png)
+![Trang quản trị phản hồi](mail-1.png)
 
 
 ## 🔚 Tổng kết
-Hệ thống đặt phòng khách sạn này giúp đơn giản hóa quy trình đặt phòng, mang đến trải nghiệm tiện lợi cho người dùng và dễ dàng quản lý cho chủ khách sạn. Với Laravel, PHP và MySQL, dự án đảm bảo tính linh hoạt, bảo mật và hiệu suất tốt. Hy vọng dự án sẽ hữu ích và có thể mở rộng thêm nhiều tính năng trong tương lai!
+Hệ thống đặt phòng khách sạn giúp đơn giản hóa quy trình đặt phòng, mang lại trải nghiệm tiện lợi cho người dùng và hỗ trợ quản lý hiệu quả cho chủ khách sạn. Được xây dựng bằng Laravel, PHP và MySQL, hệ thống đảm bảo tính linh hoạt, bảo mật và hiệu suất ổn định. Dự án hứa hẹn sẽ tiếp tục được phát triển và mở rộng với nhiều tính năng hữu ích trong tương lai.
